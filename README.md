@@ -90,8 +90,12 @@ The smoke suite serves the site under `/vibe-coding-demo/` to verify GitHub Page
 
 Manual rehearsal should still include tabbing through each exercise, checking readability on the actual projector, and using a real phone.
 
-## GitHub Pages setup (presenter only)
+## GitHub Pages (presenter only)
 
 The source is ready to host from the repository root with no build step. When a GitHub remote has been created and the files pushed, choose **Settings → Pages → Deploy from a branch → main → /(root)**. Assets use relative paths so a project URL works. The included `.nojekyll` keeps this as a plain static site.
 
-Remote repository creation and publication are separate from this local implementation. No deployment or AI service is configured.
+Repository: https://github.com/EricLaw-LYL/vibe-coding-demo
+
+Live site: https://ericlaw-lyl.github.io/vibe-coding-demo/
+
+The site is published from `main` at the repository root. Future commits to that branch trigger a Pages update. No AI service is configured.
