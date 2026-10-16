@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="A hands-on introduction to building with AI. Turn an idea into a working website, one conversation at a time.">
+  <title>Vibe Coding — From idea to “I made this.”</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=workflow-5">
+  <script src="./app.js?v=workflow-5" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span> vibe coding<span class="brand-dot">.</span></a>
+      
+      <div class="nav-tools"><button class="button small dark" id="present-toggle" aria-pressed="false">Present <span aria-hidden="true">↗</span></button></div>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" id="home" data-chapter="A little curiosity" data-time="0–5 min">
+      <div class="eyebrow"><span class="live-dot" aria-hidden="true"></span> A hands-on guide for curious people</div>
+      <h1>From an idea to<br><span class="blue-text">“I made this.”</span></h1>
+      <p class="hero-copy">You bring the curiosity. AI helps with the code.<br>Let’s build something together, one conversation at a time.</p>
+      
+      <div class="hero-meta"><span>45–60 minutes</span><i aria-hidden="true"></i><span>No coding experience needed</span><i aria-hidden="true"></i><button class="plain-link" id="agenda-open">See the session plan</button></div>
+      <div class="studio" aria-label="Prepared illustration of an idea becoming a quiz website">
+        <div class="studio-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>A little idea. A real first step.</span><span class="studio-tag">PREPARED EXAMPLE</span></div>
+        <div class="studio-body">
+          <div class="conversation"><div class="tiny-label">THE CONVERSATION</div><div class="message user-message">“Make a quiz for our study group.<br>Keep it simple. Make it feel fun.”</div><div class="assistant-message"><span class="spark" aria-hidden="true">✳</span><div><strong>Let’s give your idea a first version.</strong><p>Three questions. Instant feedback.<br>A fresh start whenever you like.</p><div class="code-chips"><span>index.html</span><span>styles.css</span><span>app.js</span></div></div></div><div class="conversation-footer"><span aria-hidden="true">↳</span> Describe it. Try it. Make it better.</div></div>
+          <div class="preview-art"><div class="mini-app"><div class="mini-label"><span class="mini-icon" aria-hidden="true">✦</span> Curiosity club <span>01 / 03</span></div><h2>What turns a website<br>into something you<br>can interact with?</h2><div class="mini-answer">A <span>HTML</span></div><div class="mini-answer selected">B <span>JavaScript</span><span class="answer-check" aria-hidden="true">✓</span></div><div class="mini-answer">C <span>CSS</span></div><div class="mini-foot">A small app. A pretty good beginning.</div></div><span class="floating-label">It starts with a sentence. <span aria-hidden="true">↗</span></span></div>
+        </div>
+      </div>
+      <p class="hero-bottom">No magic words. Just a clear idea, a little experimenting, and a few good questions.</p>
+    </section>
+
+    <section class="section soft" id="how-it-works" data-chapter="The idea" data-time="5–10 min">
+      <div class="wrap"><div class="section-heading"><span class="eyebrow">01 / THE IDEA</span><h2>You describe it.<br>Then you shape it.</h2><p>“Vibe coding” starts with a conversation: tell AI what you want, agree on a simple plan, let it write a first version, and keep trying and improving it. Checking the result is part of the work.</p></div>
+        <div class="workflow" role="group" aria-label="Explore the building workflow">
+          <button class="workflow-step active" data-step="0" aria-pressed="true" aria-controls="step-detail"><span>01</span><strong>Describe</strong><small>Give the idea a shape</small><span class="step-arrow" aria-hidden="true">↗</span></button>
+          <button class="workflow-step" data-step="1" aria-pressed="false" aria-controls="step-detail"><span>02</span><strong>Plan</strong><small>Agree on the first steps</small><span class="step-arrow" aria-hidden="true">↗</span></button>
+          <button class="workflow-step" data-step="2" aria-pressed="false" aria-controls="step-detail"><span>03</span><strong>Build</strong><small>Get a first version</small><span class="step-arrow" aria-hidden="true">↗</span></button>
+          <button class="workflow-step" data-step="3" aria-pressed="false" aria-controls="step-detail"><span>04</span><strong>Try</strong><small>See what really happens</small><span class="step-arrow" aria-hidden="true">↗</span></button>
+          <button class="workflow-step" data-step="4" aria-pressed="false" aria-controls="step-detail"><span>05</span><strong>Refine</strong><small>Make one thing better</small><span class="step-arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <div class="step-detail" id="step-detail" aria-live="polite"><span class="detail-label">YOU MIGHT SAY</span><p id="step-quote">“Build a three-question quiz for my study group. Show a score at the end.”</p><span id="step-tip">Start small. Who is it for, and what should they be able to do?</span></div>
+        <div class="takeaway"><span aria-hidden="true">↻</span><p>The first result is a starting point.<br><strong>The useful skill is learning what to ask next.</strong></p></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="basics" data-chapter="Just enough web basics" data-time="5–10 min">
+      <div class="section-heading"><span class="eyebrow">02 / JUST ENOUGH TECH</span><h2>Three ingredients.<br>One little website.</h2><p>You don’t need to memorize code. A few words will help you explain what you want to change.</p></div>
+      <div class="ingredients">
+        <article class="ingredient"><div class="ingredient-art structure" aria-hidden="true"><div></div><div></div><div></div><div></div></div><span class="pill" title="HyperText Markup Language">HTML</span><h3>The structure.</h3><p><strong>HyperText Markup Language.</strong> The question, the answers, the buttons. Think of it as the things on the page.</p><div class="example-line">“Add a heading above the quiz.”</div></article>
+        <article class="ingredient"><div class="ingredient-art appearance" aria-hidden="true"><span>Aa</span><div><i></i><i></i><i></i></div></div><span class="pill" title="Cascading Style Sheets">CSS</span><h3>The appearance.</h3><p><strong>Cascading Style Sheets.</strong> The colors, spacing, and layout. It helps the same page feel clear and inviting.</p><div class="example-line">“Make the answers easier to read.”</div></article>
+        <article class="ingredient"><div class="ingredient-art behavior" aria-hidden="true"><span class="fake-button">Check answer <b>↗</b></span><span class="fake-feedback">✓ That’s right!</span></div><span class="pill">JavaScript</span><h3>The behavior.</h3><p>What happens when you click. Check an answer, update a score, or restart.</p><div class="example-line">“Show feedback after I answer.”</div></article>
+      </div>
+    </section>
+
+    <section class="section soft" id="prompt-builder" data-chapter="A better starting prompt" data-time="10–17 min">
+      <div class="wrap"><div class="section-heading"><span class="eyebrow">03 / THE PROMPT</span><h2>A clearer ask.<br>A better starting point.</h2><p>A prompt is simply your instruction to AI. Give it a purpose, a few boundaries, and a picture of what good looks like.</p></div>
+        <div class="builder-grid">
+          <form class="builder-form" id="prompt-form"><div class="panel-heading"><h3>Give your idea a brief.</h3><button class="plain-link" type="button" id="example-reset">Use quiz example ↺</button></div>
+            <label for="audience"><span>01 <b>Who is it for?</b></span><input id="audience" name="audience" maxlength="500" value="My study group, with no coding experience" placeholder="e.g. Friends planning a weekend trip"></label>
+            <label for="goal"><span>02 <b>What should it help them do?</b></span><input id="goal" name="goal" maxlength="500" value="Test their knowledge with a short quiz" placeholder="e.g. Pick a restaurant together"></label>
+            <label for="features"><span>03 <b>What are the essentials?</b></span><textarea id="features" name="features" rows="3" maxlength="1500">Three multiple-choice questions, answer feedback, a final score, and a restart button</textarea></label>
+            <label for="style"><span>04 <b>How should it look and feel?</b></span><input id="style" name="style" maxlength="500" value="Clean, friendly, spacious, with a blue accent" placeholder="e.g. Calm, colorful, easy to read"></label>
+          </form>
+          <div class="prompt-panel"><div class="panel-heading"><span class="tiny-label">YOUR STARTER PROMPT</span><span class="pill blue-pill">Ready to make yours</span></div><label class="sr-only" for="prompt-output">Your editable starter prompt</label><textarea id="prompt-output" spellcheck="false" rows="14"></textarea><div class="prompt-bottom"><p>Edit this prompt, then paste it into your AI coding tool.<br><span>Changing a field above refreshes this draft.</span></p><button class="button primary" id="copy-prompt">Copy prompt <span aria-hidden="true">⧉</span></button></div><p class="copy-status" id="prompt-status" role="status"></p></div>
+        </div>
+        <div class="comparison"><div class="comparison-intro"><span class="tiny-label">SAME IDEA. DIFFERENT INSTRUCTIONS.</span><h3>Try being a little more specific.</h3><p>Switch the brief to see a prepared example of how the result could change.</p><div class="segmented" role="group" aria-label="Compare prompt examples"><button data-compare="vague" aria-pressed="true" class="active">Vague prompt</button><button data-compare="clear" aria-pressed="false">Clear prompt</button></div></div><div class="comparison-result" aria-live="polite"><span class="tiny-label">PREPARED EXAMPLE · NOT LIVE AI</span><blockquote id="compare-prompt">“Make me a quiz.”</blockquote><div id="compare-preview" class="compare-preview vague-preview"><div class="compare-preview-label">Quiz</div><p id="compare-question">Question 1</p><div class="compare-options"><span id="compare-option-a">Option A</span><span id="compare-option-b">Option B</span></div><span id="compare-caption">The goal, audience, and feedback are left to guesswork.</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="workshop" data-chapter="Build something together" data-time="17–32 min">
+      <div class="section-heading"><span class="eyebrow">04 / THE DEMO</span><h2>A small app.<br>A real “I made this” moment.</h2><p>Here’s the quiz we’re building. Play it, then choose an improvement. What would you ask AI to change?</p></div>
+      <div class="workshop-grid"><div class="workshop-guide"><span class="pill blue-pill">Your live workshop</span><h3>Meet Curiosity Club.</h3><p>Three questions about the web. No account. No pressure. Just a first version you can actually try.</p>
+          <fieldset class="feature-options"><legend>Make one thing better</legend><label><input type="checkbox" id="feature-explanations"><span><b>Explain the answer</b><small>Help people learn after each question.</small></span></label><label><input type="checkbox" id="feature-progress"><span><b>Show progress</b><small>Make it clear how far we’ve come.</small></span></label></fieldset>
+          <p class="small-note">These switches show prepared improvements. For the live build, ask your AI coding tool to make the same change.</p><details class="starter-details"><summary>Get the live-build starter prompt <span aria-hidden="true">+</span></summary><p id="live-prompt">Build a small study-group quiz website for friends who are new to coding. Use HTML, CSS, and JavaScript with no external services. Include three multiple-choice questions, one question at a time, answer feedback, a final score, and a restart button. Use a clean layout with large text, generous spacing, and one blue accent. Make it usable on phones and with a keyboard. Explain how I can preview it locally.</p><button class="text-link" data-copy-source="live-prompt">Copy starter prompt ⧉</button></details>
+        </div>
+        <div class="quiz-shell"><div class="quiz-top"><span><span aria-hidden="true">✦</span> Curiosity club</span><button class="plain-link" id="quiz-restart" aria-label="Restart quiz">Restart ↺</button></div><div class="quiz-progress" id="quiz-progress" hidden><div><span id="progress-label">Question 1 of 3</span><span id="progress-percent">0% complete</span></div><progress id="progress-bar" max="3" value="0" aria-label="Answered questions"></progress></div><form id="quiz-form"><fieldset id="quiz-fieldset"><legend id="quiz-question">What gives a website its structure?</legend><div class="quiz-options" id="quiz-options"></div></fieldset><div class="quiz-feedback" id="quiz-feedback" role="status"></div><button class="button primary quiz-submit" id="quiz-submit" type="submit" disabled>Check answer <span aria-hidden="true">→</span></button></form><div class="quiz-results" id="quiz-results" hidden><span class="result-icon" aria-hidden="true">✦</span><span class="tiny-label">A LITTLE MORE KNOW-HOW</span><h3 id="quiz-score">3 out of 3.</h3><p id="quiz-result-copy">You’ve met the three ingredients of a website.</p><button class="button primary" id="quiz-again">Try again ↺</button></div><div class="quiz-footer">Built from an idea. Improved by trying.</div></div>
+      </div>
+      <div class="discussion"><span class="tiny-label">PAUSE & ASK THE GROUP</span><p>“If this were your app, what’s the first thing you’d change?”</p></div>
+    </section>
+
+    <section class="section dark-section" id="debug" data-chapter="Try it. Break it. Fix it." data-time="32–45 min"><div class="wrap">
+      <div class="section-heading"><span class="eyebrow">05 / THE REAL SKILL</span><h2>Looks right.<br>But does it work right?</h2><p>AI can make mistakes. You learn a lot by testing the edges—and telling it exactly what happened.</p></div>
+      <div class="debug-grid"><div class="bug-lab"><div class="panel-heading"><span class="tiny-label">A DELIBERATELY BROKEN EXAMPLE</span><span class="bug-badge" id="bug-badge">Bug present</span></div><h3>One answer. How many points?</h3><p>This demo answer is correct. Click “Submit answer” twice. Should you earn two points?</p><div class="bug-score"><strong id="bug-score">0</strong><span>points for one answer</span></div><div class="bug-actions"><button class="button light" id="bug-submit">Submit answer +1</button><button class="text-link" id="bug-reset">Reset ↺</button></div><p class="bug-observation" id="bug-observation" role="status">Make a prediction, then try it.</p><div class="bug-fix-row"><label class="switch-label"><input type="checkbox" id="bug-fixed"><span>Apply the prepared fix</span></label><span>Try the same test again.</span></div></div>
+        <div class="debug-prompt"><span class="tiny-label">GIVE FEEDBACK THAT HELPS</span><h3>Expected. Actual.<br>One clear request.</h3><blockquote id="feedback-prompt">“When I submit the same answer twice, I expected to earn one point, but the score increases twice. Please investigate the cause, fix it, and explain how to verify the fix.”</blockquote><button class="text-link" data-copy-source="feedback-prompt">Copy feedback example ⧉</button><div class="debug-tip"><span aria-hidden="true">↳</span><p>After a fix, repeat the original test.<br>Then check something that already worked.</p></div></div></div>
+      <div class="test-checklist"><h3>Try the things a real person might do.</h3><div><label><input type="checkbox"> Answer correctly and incorrectly</label><label><input type="checkbox"> Click a button more than once</label><label><input type="checkbox"> Restart and check the score resets</label><label><input type="checkbox"> Try a phone and a keyboard</label></div></div>
+    </div></section>
+
+    <section class="section wrap" id="habits" data-chapter="Good habits from day one" data-time="45–50 min"><div class="section-heading"><span class="eyebrow">06 / KEEP THESE CLOSE</span><h2>Stay curious.<br>Stay in the driver’s seat.</h2></div><div class="habits-grid"><article><span class="habit-number">01</span><h3>Make it small.</h3><p>Start with one job the app should do. Add the next feature after the first one works.</p></article><article><span class="habit-number">02</span><h3>Ask one thing.</h3><p>Change one thing at a time. It’s easier to see what helped and what broke.</p></article><article><span class="habit-number">03</span><h3>Save a good version.</h3><p>Keep a working copy before big changes. Experimenting feels better with a way back.</p></article><article><span class="habit-number">04</span><h3>Use made-up data.</h3><p>Learn with sample names and content. Keep passwords, private files, and sensitive information out of prompts.</p></article></div><div class="big-quote"><span aria-hidden="true">“</span><p>You don’t need to understand every line to start.<br><em>You do need to check what it does.</em></p></div></section>
+
+    <section class="section soft" id="next" data-chapter="Your first idea" data-time="50–55 min"><div class="wrap"><div class="section-heading"><span class="eyebrow">07 / YOUR TURN</span><h2>What’s your<br>“I wish there was…”?</h2><p>Pick something small from your own life. Make a first version for one person. That person can be you.</p></div><div class="projects"><article><span class="project-symbol" aria-hidden="true">◷</span><span class="tiny-label">A LITTLE MORE FOCUS</span><h3>A study timer.</h3><p>Work, take a break, and see your progress.</p><button class="text-link" data-project="timer">Make this my starting prompt ↗</button></article><article><span class="project-symbol" aria-hidden="true">⌖</span><span class="tiny-label">ONE LESS GROUP CHAT DEBATE</span><h3>A dinner decider.</h3><p>Put in a few options. Let it pick tonight’s spot.</p><button class="text-link" data-project="dinner">Make this my starting prompt ↗</button></article><article><span class="project-symbol" aria-hidden="true">▤</span><span class="tiny-label">A SMALL DAILY WIN</span><h3>A reading tracker.</h3><p>Keep your book list and mark what you’ve finished.</p><button class="text-link" data-project="reading">Make this my starting prompt ↗</button></article></div><div class="closing"><p>Your first project doesn’t have to change the world.</p><h3>It just has to start.</h3><a class="button primary" href="#prompt-builder">Give your idea a first sentence <span aria-hidden="true">↑</span></a></div></div></section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span> vibe coding.</a><p>A guide for curious people. Built to be tried.</p><a class="plain-link" href="#home">Back to the top ↑</a></footer>
+  <div class="toast" id="global-status" role="status"></div>
+  <div class="presenter-dock" id="presenter-dock" hidden><button id="chapter-prev" class="dock-arrow" aria-label="Previous chapter">←</button><div><span id="chapter-count">01 / 08</span><strong id="chapter-title">A little curiosity</strong><small id="chapter-time">0–5 min</small></div><button id="chapter-next" class="dock-arrow" aria-label="Next chapter">→</button><button id="agenda-dock" class="dock-outline">Agenda</button><button id="present-exit" class="dock-close" aria-label="Exit presentation mode">×</button></div>
+  <dialog id="agenda-dialog" aria-labelledby="agenda-title"><div class="dialog-heading"><span class="eyebrow">THE SESSION</span><button class="icon-button" id="agenda-close" aria-label="Close session plan">×</button></div><h2 id="agenda-title">A little time.<br>A lot to try.</h2><p>Choose a pace. Leave room for curiosity.</p><div class="segmented" role="group" aria-label="Session duration"><button data-duration="45" aria-pressed="false">45 min</button><button data-duration="55" class="active" aria-pressed="true">55 min</button><button data-duration="60" aria-pressed="false">60 min</button></div><ol class="agenda-list" id="agenda-list"></ol><p class="small-note">Have your AI coding tool ready and keep this demo as a backup. No accounts or setup needed for the audience.</p></dialog>
+  <noscript><div class="noscript">The guide is readable without JavaScript. Enable JavaScript to try the quiz, prompt builder, and interactive exercises.</div></noscript>
+</body>
+</html>
